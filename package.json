@@ -1,0 +1,28 @@
+{
+  "name": "word-tavern",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Word Tavern — a word-of-the-day game built on Bluesky.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "concurrently --kill-others --names server,sass,browser \"npm:dev:server\" \"npm:watch:css\" \"npm:dev:browser\"",
+    "dev:server": "cross-env NODE_ENV=development PORT=3001 node --watch server/index.js",
+    "dev:browser": "browser-sync start --proxy localhost:3001 --port 3000 --no-ui --no-open --no-inject-changes --reload-delay 500 --files \"public/**/*.js,public/**/*.html,public/css/main.css\"",
+    "build:css": "sass scss/main.scss public/css/main.css --style=expanded",
+    "watch:css": "sass --watch scss/main.scss public/css/main.css --style=expanded"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "sass": "^1.83.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "concurrently": "^9.2.1",
+    "cross-env": "^7.0.3"
+  }
+}

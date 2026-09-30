@@ -1,0 +1,898 @@
+[
+  {
+    "handle": "wren.bsky.social",
+    "name": "Wren",
+    "joined": "2026-08-22",
+    "streak": 37,
+    "xp": 1240,
+    "wordsPoured": 37,
+    "weeklyXp": 420,
+    "tab": [
+      {
+        "day": 34,
+        "date": "2026-09-22",
+        "word": "quotidian",
+        "xp": 25
+      },
+      {
+        "day": 35,
+        "date": "2026-09-23",
+        "word": "umbrage",
+        "xp": 25
+      },
+      {
+        "day": 36,
+        "date": "2026-09-24",
+        "word": "winsome",
+        "xp": 50
+      },
+      {
+        "day": 37,
+        "date": "2026-09-25",
+        "word": "zeitgeist",
+        "xp": 25
+      },
+      {
+        "day": 38,
+        "date": "2026-09-26",
+        "word": "halcyon",
+        "xp": 25
+      },
+      {
+        "day": 39,
+        "date": "2026-09-27",
+        "word": "laconic",
+        "xp": 25
+      }
+    ]
+  },
+  {
+    "handle": "juniper.bsky.social",
+    "name": "Juniper Okafor",
+    "joined": "2026-08-24",
+    "streak": 35,
+    "xp": 1590,
+    "wordsPoured": 35,
+    "weeklyXp": 505,
+    "tab": [
+      {
+        "day": 33,
+        "date": "2026-09-21",
+        "word": "panacea",
+        "xp": 25
+      },
+      {
+        "day": 34,
+        "date": "2026-09-22",
+        "word": "quotidian",
+        "xp": 25
+      },
+      {
+        "day": 35,
+        "date": "2026-09-23",
+        "word": "umbrage",
+        "xp": 25
+      },
+      {
+        "day": 36,
+        "date": "2026-09-24",
+        "word": "winsome",
+        "xp": 50
+      },
+      {
+        "day": 37,
+        "date": "2026-09-25",
+        "word": "zeitgeist",
+        "xp": 25
+      },
+      {
+        "day": 38,
+        "date": "2026-09-26",
+        "word": "halcyon",
+        "xp": 25
+      },
+      {
+        "day": 39,
+        "date": "2026-09-27",
+        "word": "laconic",
+        "xp": 25
+      }
+    ]
+  },
+  {
+    "handle": "tferreira.bsky.social",
+    "name": "Tomás Ferreira",
+    "joined": "2026-08-28",
+    "streak": 30,
+    "xp": 1455,
+    "wordsPoured": 31,
+    "weeklyXp": 285,
+    "tab": [
+      {
+        "day": 32,
+        "date": "2026-09-20",
+        "word": "sesquipedalian",
+        "xp": 50
+      },
+      {
+        "day": 33,
+        "date": "2026-09-21",
+        "word": "panacea",
+        "xp": 25
+      },
+      {
+        "day": 34,
+        "date": "2026-09-22",
+        "word": "quotidian",
+        "xp": 25
+      },
+      {
+        "day": 35,
+        "date": "2026-09-23",
+        "word": "umbrage",
+        "xp": 25
+      },
+      {
+        "day": 36,
+        "date": "2026-09-24",
+        "word": "winsome",
+        "xp": 50
+      },
+      {
+        "day": 37,
+        "date": "2026-09-25",
+        "word": "zeitgeist",
+        "xp": 25
+      },
+      {
+        "day": 38,
+        "date": "2026-09-26",
+        "word": "halcyon",
+        "xp": 25
+      },
+      {
+        "day": 39,
+        "date": "2026-09-27",
+        "word": "laconic",
+        "xp": 25
+      }
+    ]
+  },
+  {
+    "handle": "hattielark.bsky.social",
+    "name": "Hattie Lark",
+    "joined": "2026-08-20",
+    "streak": 39,
+    "xp": 1875,
+    "wordsPoured": 39,
+    "weeklyXp": 610,
+    "tab": [
+      {
+        "day": 31,
+        "date": "2026-09-19",
+        "word": "nonplussed",
+        "xp": 25
+      },
+      {
+        "day": 32,
+        "date": "2026-09-20",
+        "word": "sesquipedalian",
+        "xp": 50
+      },
+      {
+        "day": 33,
+        "date": "2026-09-21",
+        "word": "panacea",
+        "xp": 25
+      },
+      {
+        "day": 34,
+        "date": "2026-09-22",
+        "word": "quotidian",
+        "xp": 25
+      },
+      {
+        "day": 35,
+        "date": "2026-09-23",
+        "word": "umbrage",
+        "xp": 25
+      },
+      {
+        "day": 36,
+        "date": "2026-09-24",
+        "word": "winsome",
+        "xp": 50
+      },
+      {
+        "day": 37,
+        "date": "2026-09-25",
+        "word": "zeitgeist",
+        "xp": 25
+      },
+      {
+        "day": 38,
+        "date": "2026-09-26",
+        "word": "halcyon",
+        "xp": 25
+      },
+      {
+        "day": 39,
+        "date": "2026-09-27",
+        "word": "laconic",
+        "xp": 25
+      }
+    ]
+  },
+  {
+    "handle": "devr.bsky.social",
+    "name": "Dev Ramanathan",
+    "joined": "2026-08-30",
+    "streak": 29,
+    "xp": 1105,
+    "wordsPoured": 30,
+    "weeklyXp": 310,
+    "tab": [
+      {
+        "day": 34,
+        "date": "2026-09-22",
+        "word": "quotidian",
+        "xp": 25
+      },
+      {
+        "day": 35,
+        "date": "2026-09-23",
+        "word": "umbrage",
+        "xp": 25
+      },
+      {
+        "day": 36,
+        "date": "2026-09-24",
+        "word": "winsome",
+        "xp": 50
+      },
+      {
+        "day": 37,
+        "date": "2026-09-25",
+        "word": "zeitgeist",
+        "xp": 25
+      },
+      {
+        "day": 38,
+        "date": "2026-09-26",
+        "word": "halcyon",
+        "xp": 25
+      },
+      {
+        "day": 39,
+        "date": "2026-09-27",
+        "word": "laconic",
+        "xp": 25
+      }
+    ]
+  },
+  {
+    "handle": "marguerite.bsky.social",
+    "name": "Marguerite",
+    "joined": "2026-09-01",
+    "streak": 26,
+    "xp": 1210,
+    "wordsPoured": 27,
+    "weeklyXp": 260,
+    "tab": [
+      {
+        "day": 33,
+        "date": "2026-09-21",
+        "word": "panacea",
+        "xp": 25
+      },
+      {
+        "day": 34,
+        "date": "2026-09-22",
+        "word": "quotidian",
+        "xp": 25
+      },
+      {
+        "day": 35,
+        "date": "2026-09-23",
+        "word": "umbrage",
+        "xp": 25
+      },
+      {
+        "day": 36,
+        "date": "2026-09-24",
+        "word": "winsome",
+        "xp": 50
+      },
+      {
+        "day": 37,
+        "date": "2026-09-25",
+        "word": "zeitgeist",
+        "xp": 25
+      },
+      {
+        "day": 38,
+        "date": "2026-09-26",
+        "word": "halcyon",
+        "xp": 25
+      },
+      {
+        "day": 39,
+        "date": "2026-09-27",
+        "word": "laconic",
+        "xp": 25
+      }
+    ]
+  },
+  {
+    "handle": "oskar.b.bsky.social",
+    "name": "Oskar B",
+    "joined": "2026-09-05",
+    "streak": 22,
+    "xp": 985,
+    "wordsPoured": 24,
+    "weeklyXp": 220,
+    "tab": [
+      {
+        "day": 32,
+        "date": "2026-09-20",
+        "word": "sesquipedalian",
+        "xp": 50
+      },
+      {
+        "day": 33,
+        "date": "2026-09-21",
+        "word": "panacea",
+        "xp": 25
+      },
+      {
+        "day": 34,
+        "date": "2026-09-22",
+        "word": "quotidian",
+        "xp": 25
+      },
+      {
+        "day": 35,
+        "date": "2026-09-23",
+        "word": "umbrage",
+        "xp": 25
+      },
+      {
+        "day": 36,
+        "date": "2026-09-24",
+        "word": "winsome",
+        "xp": 50
+      },
+      {
+        "day": 37,
+        "date": "2026-09-25",
+        "word": "zeitgeist",
+        "xp": 25
+      },
+      {
+        "day": 38,
+        "date": "2026-09-26",
+        "word": "halcyon",
+        "xp": 25
+      },
+      {
+        "day": 39,
+        "date": "2026-09-27",
+        "word": "laconic",
+        "xp": 25
+      }
+    ]
+  },
+  {
+    "handle": "paloma.bsky.social",
+    "name": "Paloma",
+    "joined": "2026-09-03",
+    "streak": 24,
+    "xp": 1330,
+    "wordsPoured": 25,
+    "weeklyXp": 280,
+    "tab": [
+      {
+        "day": 31,
+        "date": "2026-09-19",
+        "word": "nonplussed",
+        "xp": 25
+      },
+      {
+        "day": 32,
+        "date": "2026-09-20",
+        "word": "sesquipedalian",
+        "xp": 50
+      },
+      {
+        "day": 33,
+        "date": "2026-09-21",
+        "word": "panacea",
+        "xp": 25
+      },
+      {
+        "day": 34,
+        "date": "2026-09-22",
+        "word": "quotidian",
+        "xp": 25
+      },
+      {
+        "day": 35,
+        "date": "2026-09-23",
+        "word": "umbrage",
+        "xp": 25
+      },
+      {
+        "day": 36,
+        "date": "2026-09-24",
+        "word": "winsome",
+        "xp": 50
+      },
+      {
+        "day": 37,
+        "date": "2026-09-25",
+        "word": "zeitgeist",
+        "xp": 25
+      },
+      {
+        "day": 38,
+        "date": "2026-09-26",
+        "word": "halcyon",
+        "xp": 25
+      },
+      {
+        "day": 39,
+        "date": "2026-09-27",
+        "word": "laconic",
+        "xp": 25
+      }
+    ]
+  },
+  {
+    "handle": "quietbenji.bsky.social",
+    "name": "quietbenji",
+    "joined": "2026-08-26",
+    "streak": 34,
+    "xp": 1640,
+    "wordsPoured": 34,
+    "weeklyXp": 540,
+    "tab": [
+      {
+        "day": 34,
+        "date": "2026-09-22",
+        "word": "quotidian",
+        "xp": 25
+      },
+      {
+        "day": 35,
+        "date": "2026-09-23",
+        "word": "umbrage",
+        "xp": 25
+      },
+      {
+        "day": 36,
+        "date": "2026-09-24",
+        "word": "winsome",
+        "xp": 50
+      },
+      {
+        "day": 37,
+        "date": "2026-09-25",
+        "word": "zeitgeist",
+        "xp": 25
+      },
+      {
+        "day": 38,
+        "date": "2026-09-26",
+        "word": "halcyon",
+        "xp": 25
+      },
+      {
+        "day": 39,
+        "date": "2026-09-27",
+        "word": "laconic",
+        "xp": 25
+      }
+    ]
+  },
+  {
+    "handle": "the_real_ines.bsky.social",
+    "name": "Inés",
+    "joined": "2026-09-13",
+    "streak": 15,
+    "xp": 1090,
+    "wordsPoured": 15,
+    "weeklyXp": 240,
+    "tab": [
+      {
+        "day": 33,
+        "date": "2026-09-21",
+        "word": "panacea",
+        "xp": 25
+      },
+      {
+        "day": 34,
+        "date": "2026-09-22",
+        "word": "quotidian",
+        "xp": 25
+      },
+      {
+        "day": 35,
+        "date": "2026-09-23",
+        "word": "umbrage",
+        "xp": 25
+      },
+      {
+        "day": 36,
+        "date": "2026-09-24",
+        "word": "winsome",
+        "xp": 50
+      },
+      {
+        "day": 37,
+        "date": "2026-09-25",
+        "word": "zeitgeist",
+        "xp": 25
+      },
+      {
+        "day": 38,
+        "date": "2026-09-26",
+        "word": "halcyon",
+        "xp": 25
+      },
+      {
+        "day": 39,
+        "date": "2026-09-27",
+        "word": "laconic",
+        "xp": 25
+      }
+    ]
+  },
+  {
+    "handle": "fennwick.bsky.social",
+    "name": "fennwick",
+    "joined": "2026-09-20",
+    "streak": 8,
+    "xp": 300,
+    "wordsPoured": 8,
+    "weeklyXp": 175,
+    "tab": [
+      {
+        "day": 32,
+        "date": "2026-09-20",
+        "word": "sesquipedalian",
+        "xp": 50
+      },
+      {
+        "day": 33,
+        "date": "2026-09-21",
+        "word": "panacea",
+        "xp": 25
+      },
+      {
+        "day": 34,
+        "date": "2026-09-22",
+        "word": "quotidian",
+        "xp": 25
+      },
+      {
+        "day": 35,
+        "date": "2026-09-23",
+        "word": "umbrage",
+        "xp": 25
+      },
+      {
+        "day": 36,
+        "date": "2026-09-24",
+        "word": "winsome",
+        "xp": 50
+      },
+      {
+        "day": 37,
+        "date": "2026-09-25",
+        "word": "zeitgeist",
+        "xp": 25
+      },
+      {
+        "day": 38,
+        "date": "2026-09-26",
+        "word": "halcyon",
+        "xp": 25
+      },
+      {
+        "day": 39,
+        "date": "2026-09-27",
+        "word": "laconic",
+        "xp": 25
+      }
+    ]
+  },
+  {
+    "handle": "rook.bsky.social",
+    "name": "rook",
+    "joined": "2026-09-11",
+    "streak": 17,
+    "xp": 870,
+    "wordsPoured": 18,
+    "weeklyXp": 195,
+    "tab": [
+      {
+        "day": 31,
+        "date": "2026-09-19",
+        "word": "nonplussed",
+        "xp": 25
+      },
+      {
+        "day": 32,
+        "date": "2026-09-20",
+        "word": "sesquipedalian",
+        "xp": 50
+      },
+      {
+        "day": 33,
+        "date": "2026-09-21",
+        "word": "panacea",
+        "xp": 25
+      },
+      {
+        "day": 34,
+        "date": "2026-09-22",
+        "word": "quotidian",
+        "xp": 25
+      },
+      {
+        "day": 35,
+        "date": "2026-09-23",
+        "word": "umbrage",
+        "xp": 25
+      },
+      {
+        "day": 36,
+        "date": "2026-09-24",
+        "word": "winsome",
+        "xp": 50
+      },
+      {
+        "day": 37,
+        "date": "2026-09-25",
+        "word": "zeitgeist",
+        "xp": 25
+      },
+      {
+        "day": 38,
+        "date": "2026-09-26",
+        "word": "halcyon",
+        "xp": 25
+      },
+      {
+        "day": 39,
+        "date": "2026-09-27",
+        "word": "laconic",
+        "xp": 25
+      }
+    ]
+  },
+  {
+    "handle": "sable.writes.bsky.social",
+    "name": "sable",
+    "joined": "2026-09-08",
+    "streak": 19,
+    "xp": 1180,
+    "wordsPoured": 20,
+    "weeklyXp": 265,
+    "tab": [
+      {
+        "day": 34,
+        "date": "2026-09-22",
+        "word": "quotidian",
+        "xp": 25
+      },
+      {
+        "day": 35,
+        "date": "2026-09-23",
+        "word": "umbrage",
+        "xp": 25
+      },
+      {
+        "day": 36,
+        "date": "2026-09-24",
+        "word": "winsome",
+        "xp": 50
+      },
+      {
+        "day": 37,
+        "date": "2026-09-25",
+        "word": "zeitgeist",
+        "xp": 25
+      },
+      {
+        "day": 38,
+        "date": "2026-09-26",
+        "word": "halcyon",
+        "xp": 25
+      },
+      {
+        "day": 39,
+        "date": "2026-09-27",
+        "word": "laconic",
+        "xp": 25
+      }
+    ]
+  },
+  {
+    "handle": "mo.k.bsky.social",
+    "name": "Mo K",
+    "joined": "2026-09-15",
+    "streak": 12,
+    "xp": 940,
+    "wordsPoured": 13,
+    "weeklyXp": 205,
+    "tab": [
+      {
+        "day": 33,
+        "date": "2026-09-21",
+        "word": "panacea",
+        "xp": 25
+      },
+      {
+        "day": 34,
+        "date": "2026-09-22",
+        "word": "quotidian",
+        "xp": 25
+      },
+      {
+        "day": 35,
+        "date": "2026-09-23",
+        "word": "umbrage",
+        "xp": 25
+      },
+      {
+        "day": 36,
+        "date": "2026-09-24",
+        "word": "winsome",
+        "xp": 50
+      },
+      {
+        "day": 37,
+        "date": "2026-09-25",
+        "word": "zeitgeist",
+        "xp": 25
+      },
+      {
+        "day": 38,
+        "date": "2026-09-26",
+        "word": "halcyon",
+        "xp": 25
+      },
+      {
+        "day": 39,
+        "date": "2026-09-27",
+        "word": "laconic",
+        "xp": 25
+      }
+    ]
+  },
+  {
+    "handle": "elspeth.bsky.social",
+    "name": "Elspeth",
+    "joined": "2026-09-17",
+    "streak": 10,
+    "xp": 760,
+    "wordsPoured": 11,
+    "weeklyXp": 150,
+    "tab": [
+      {
+        "day": 32,
+        "date": "2026-09-20",
+        "word": "sesquipedalian",
+        "xp": 50
+      },
+      {
+        "day": 33,
+        "date": "2026-09-21",
+        "word": "panacea",
+        "xp": 25
+      },
+      {
+        "day": 34,
+        "date": "2026-09-22",
+        "word": "quotidian",
+        "xp": 25
+      },
+      {
+        "day": 35,
+        "date": "2026-09-23",
+        "word": "umbrage",
+        "xp": 25
+      },
+      {
+        "day": 36,
+        "date": "2026-09-24",
+        "word": "winsome",
+        "xp": 50
+      },
+      {
+        "day": 37,
+        "date": "2026-09-25",
+        "word": "zeitgeist",
+        "xp": 25
+      },
+      {
+        "day": 38,
+        "date": "2026-09-26",
+        "word": "halcyon",
+        "xp": 25
+      },
+      {
+        "day": 39,
+        "date": "2026-09-27",
+        "word": "laconic",
+        "xp": 25
+      }
+    ]
+  },
+  {
+    "handle": "gideon.bsky.social",
+    "name": "Gideon",
+    "joined": "2026-09-19",
+    "streak": 5,
+    "xp": 340,
+    "wordsPoured": 6,
+    "weeklyXp": 90,
+    "tab": [
+      {
+        "day": 31,
+        "date": "2026-09-19",
+        "word": "nonplussed",
+        "xp": 25
+      },
+      {
+        "day": 32,
+        "date": "2026-09-20",
+        "word": "sesquipedalian",
+        "xp": 50
+      },
+      {
+        "day": 33,
+        "date": "2026-09-21",
+        "word": "panacea",
+        "xp": 25
+      },
+      {
+        "day": 34,
+        "date": "2026-09-22",
+        "word": "quotidian",
+        "xp": 25
+      },
+      {
+        "day": 35,
+        "date": "2026-09-23",
+        "word": "umbrage",
+        "xp": 25
+      },
+      {
+        "day": 36,
+        "date": "2026-09-24",
+        "word": "winsome",
+        "xp": 50
+      },
+      {
+        "day": 37,
+        "date": "2026-09-25",
+        "word": "zeitgeist",
+        "xp": 25
+      },
+      {
+        "day": 38,
+        "date": "2026-09-26",
+        "word": "halcyon",
+        "xp": 25
+      },
+      {
+        "day": 39,
+        "date": "2026-09-27",
+        "word": "laconic",
+        "xp": 25
+      }
+    ]
+  }
+]

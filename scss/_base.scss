@@ -1,0 +1,47 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { -webkit-font-smoothing: antialiased; }
+
+body {
+  background: $bg;
+  color: $ink;
+  font-family: $font-body;
+  font-size: 13px;
+  line-height: 1.55;
+  min-height: 100vh;
+}
+
+a { color: inherit; text-decoration: none; }
+a:hover { color: $amber; }
+
+h1, h2, h3, p { margin: 0; }
+
+mark.hl {
+  background: #FFE38A;
+  color: $amber-dark;
+  font-weight: 700;
+  padding: 0 4px;
+  border-radius: 2px;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 24px 64px;
+}
+
+.chrome-head {
+  padding-bottom: 0;
+}
+
+.mono { font-family: $font-mono; }
+.muted { color: $muted; }
+.amber { color: $amber; }
+.bold { font-weight: 700; }
+
+.quiet {
+  color: $faint;
+  font-size: 11px;
+}
+
+.dot-sep { color: $muted; margin: 0 10px; }

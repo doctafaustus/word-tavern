@@ -1,0 +1,47 @@
+{
+  "login": [
+    "Back again? Your mug missed you. Don't let it go to your head.",
+    "Door stays open for you. Mostly because the hinge is broken.",
+    "Well, look who wandered back in from the rain.",
+    "Your tab remembers you. So do I. One of us forgives.",
+    "Pull up a stool. Mind the wobble. It's load-bearing.",
+    "New face? Old face? Doesn't matter. Sit."
+  ],
+  "header": [
+    "No loitering. But also, more players welcome.",
+    "Wipe your feet. Wipe your posts. Both tracked.",
+    "Today's word is on the house. Everything else is on your tab.",
+    "Keep your elbows off the table and your posts on topic.",
+    "Open till late. Streaks till later.",
+    "Mind the fire. And your spelling."
+  ],
+  "board": [
+    "Something big is coming for the taproom. Bring friends. And a spare mug.",
+    "A weekly challenge brews in the cellar. It has teeth.",
+    "Boss fight? In my tavern? More likely than you think.",
+    "Word on the street is the Barkeep has a rival. The street is scared.",
+    "Soon the whole tavern fights something together. The kegs are already nervous."
+  ],
+  "rules": [
+    {
+      "q": "How do you know I used the word?",
+      "a": "We listen. Politely. The firehose tells us everything; we only count the word. Post in public and the XP lands on your tab."
+    },
+    {
+      "q": "What do I get for posting?",
+      "a": "XP. Streaks. A one-of-a-kind cup with a rarity to brag about. The respect of a man who respects no one. It's all of it, every day, and no, there is no partial credit."
+    },
+    {
+      "q": "Why did I get a Common cup?",
+      "a": "Luck of the draw, friend. The steins are dealt, not chosen. Keep pouring and the rare ones find you eventually. Don't ask me how. I just polish them."
+    },
+    {
+      "q": "What happens to my streak if I miss a day?",
+      "a": "It dies. I hold a small service behind the cellar. Bring flowers."
+    },
+    {
+      "q": "What's the tab for?",
+      "a": "Every word you pour goes on it. At year's end you get the receipt: itemized, annotated, and only mildly judgmental."
+    }
+  ]
+}

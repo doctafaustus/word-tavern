@@ -1,0 +1,1058 @@
+[
+  {
+    "word": "petrichor",
+    "pos": "noun",
+    "pronunciation": "/ˈpɛtrɪkɔːr/",
+    "sayIt": "PET-rih-kor",
+    "definitions": [
+      {
+        "text": "The pleasant, earthy scent that follows rain falling on dry soil.",
+        "example": "First rain in a month and the whole street smelled of petrichor; even the Barkeep paused mid-grumble."
+      }
+    ],
+    "origin": "Coined in 1964 by researchers Isabel Bear and Richard Thomas from Greek petra (stone) and ichor, the golden fluid said to flow in the veins of the gods.",
+    "synonyms": [
+      "rain smell",
+      "earth smell",
+      "after-rain aroma",
+      "redolence"
+    ]
+  },
+  {
+    "word": "sonder",
+    "pos": "noun",
+    "pronunciation": "/ˈsɒndər/",
+    "sayIt": "SON-der",
+    "definitions": [
+      {
+        "text": "The realization that every passerby is living a life as vivid and complicated as your own.",
+        "example": "Moment of sonder on the packed night bus: every tired face on it has a favorite mug, probably."
+      }
+    ],
+    "origin": "Popularized by John Koenig's The Dictionary of Obscure Sorrows (2012), built on German sonder- (special, as in Sondersache, 'special case') and echoing French sonder, 'to probe.'",
+    "synonyms": [
+      "empathy",
+      "perspective",
+      "wonder",
+      "awareness",
+      "connection"
+    ]
+  },
+  {
+    "word": "uxorious",
+    "pos": "adjective",
+    "pronunciation": "/ʌkˈsɔːriəs/",
+    "sayIt": "uk-SOR-ee-us",
+    "definitions": [
+      {
+        "text": "Excessively or foolishly fond of one's wife.",
+        "example": "Martin is so uxorious he apologizes to his wife's houseplants when he forgets to water them."
+      }
+    ],
+    "origin": "From Latin uxorius, 'of a wife,' from uxor (wife). In Latin it flattered; in English it soon picked up a teasing edge of 'too much.'",
+    "synonyms": [
+      "devoted",
+      "doting",
+      "adoring",
+      "besotted",
+      "fawning"
+    ],
+    "antonym": "neglectful"
+  },
+  {
+    "word": "higgledy-piggledy",
+    "pos": "adjective",
+    "pronunciation": "/ˌhɪɡəldi ˈpɪɡəldi/",
+    "sayIt": "HIG-ul-dee PIG-ul-dee",
+    "definitions": [
+      {
+        "text": "Jumbled together in total disorder.",
+        "example": "The regulars' coats on the tavern hooks hang higgledy-piggledy, three scarves deep."
+      },
+      {
+        "text": "In a confused, messy, any-which-way manner."
+      }
+    ],
+    "origin": "Recorded since the 1500s, one of English's many reduplications in the family of willy-nilly and hocus-pocus. The pig in the middle is nonsense, which has never once stopped English.",
+    "synonyms": [
+      "topsy-turvy",
+      "willy-nilly",
+      "jumbled",
+      "chaotic",
+      "helter-skelter"
+    ],
+    "antonym": "orderly"
+  },
+  {
+    "word": "defenestrate",
+    "pos": "verb",
+    "pronunciation": "/diːˈfɛnəstreɪt/",
+    "sayIt": "dee-FEN-uh-strate",
+    "definitions": [
+      {
+        "text": "To throw someone or something out of a window.",
+        "example": "The Barkeep has threatened to defenestrate the jukebox after every fourth bagpipe track."
+      }
+    ],
+    "origin": "From Latin de- (down from) + fenestra (window), coined around 1618 for the Defenestration of Prague, when two imperial officials were thrown from a castle window and, astonishingly, lived.",
+    "synonyms": [
+      "eject",
+      "expel",
+      "evict",
+      "toss out",
+      "throw out"
+    ]
+  },
+  {
+    "word": "serendipity",
+    "pos": "noun",
+    "pronunciation": "/ˌsɛrənˈdɪpəti/",
+    "sayIt": "ser-uhn-DIP-ih-tee",
+    "definitions": [
+      {
+        "text": "The happy accident of finding something good when you weren't looking for it.",
+        "example": "Found a tenner in my coat on the way to the tavern. Serendipity, and it bought the first round."
+      },
+      {
+        "text": "Lucky chance; good fortune that arrives unplanned."
+      }
+    ],
+    "origin": "Coined by Horace Walpole in 1754 from the fairy tale The Three Princes of Serendip, an old name for Sri Lanka, whose heroes kept stumbling into fortunate discoveries.",
+    "synonyms": [
+      "luck",
+      "chance",
+      "happy accident",
+      "fluke",
+      "fortune"
+    ],
+    "antonym": "misfortune"
+  },
+  {
+    "word": "obfuscate",
+    "pos": "verb",
+    "pronunciation": "/ˈɒbfəskeɪt/",
+    "sayIt": "OB-fuh-skate",
+    "definitions": [
+      {
+        "text": "To deliberately make something unclear or confusing."
+      },
+      {
+        "text": "To darken, cloud, or obscure, literally or figuratively."
+      }
+    ],
+    "origin": "From Latin obfuscatus, 'darkened,' from ob- (over) + fuscus (dark). To obfuscate is to throw a shadow over the facts and hope nobody brings a lamp.",
+    "synonyms": [
+      "confuse",
+      "cloud",
+      "muddle",
+      "blur",
+      "bewilder"
+    ],
+    "antonym": "clarify"
+  },
+  {
+    "word": "mellifluous",
+    "pos": "adjective",
+    "pronunciation": "/məˈlɪfluəs/",
+    "sayIt": "muh-LIF-loo-us",
+    "definitions": [
+      {
+        "text": "Sweet and smooth to the ear; flowing like honey.",
+        "example": "The singer's mellifluous low notes hushed even the dart corner."
+      }
+    ],
+    "origin": "From Latin mellifluus, 'flowing with honey,' from mel (honey) + fluere (to flow). Marmalade passes through the same honeyed Latin root on its way from quince to toast.",
+    "synonyms": [
+      "honeyed",
+      "dulcet",
+      "smooth",
+      "sweet",
+      "euphonious"
+    ],
+    "antonym": "cacophonous"
+  },
+  {
+    "word": "querulous",
+    "pos": "adjective",
+    "pronunciation": "/ˈkwɛrələs/",
+    "sayIt": "KWER-uh-lus",
+    "definitions": [
+      {
+        "text": "Habitually complaining, in a whiny or petulant tone."
+      },
+      {
+        "text": "Fretful and peevish; never quite satisfied."
+      }
+    ],
+    "origin": "From Latin querulus, 'full of complaints,' from queri (to complain, lament). The whine is baked into the syllables.",
+    "synonyms": [
+      "whiny",
+      "grouchy",
+      "peevish",
+      "grumbling",
+      "petulant"
+    ],
+    "antonym": "contented"
+  },
+  {
+    "word": "sangfroid",
+    "pos": "noun",
+    "pronunciation": "/sɒŋˈfrwɑː/",
+    "sayIt": "sahng-FRWAH",
+    "definitions": [
+      {
+        "text": "Calm composure in a crisis; cool self-possession.",
+        "example": "When the keg hissed like a snake, the Barkeep handled it with pure sangfroid and one raised eyebrow."
+      }
+    ],
+    "origin": "Borrowed from French, literally 'cold blood.' English has cold feet and cold shoulders; the French kept the useful kind of cold.",
+    "synonyms": [
+      "composure",
+      "poise",
+      "aplomb",
+      "coolness",
+      "equanimity"
+    ],
+    "antonym": "panic"
+  },
+  {
+    "word": "abscond",
+    "pos": "verb",
+    "pronunciation": "/əbˈskɒnd/",
+    "sayIt": "ub-SKOND",
+    "definitions": [
+      {
+        "text": "To leave suddenly and secretly, typically to avoid capture or responsibility.",
+        "example": "Someone absconded with the last slice of pie, and frankly we respect the commitment."
+      }
+    ],
+    "origin": "From Latin abscondere, 'to hide away,' from abs- (away) + condere (to hide, store). A word for leaving with your hat low and your reasons lower.",
+    "synonyms": [
+      "flee",
+      "escape",
+      "bolt",
+      "decamp",
+      "skedaddle"
+    ],
+    "antonym": "remain"
+  },
+  {
+    "word": "bucolic",
+    "pos": "adjective",
+    "pronunciation": "/bjuːˈkɒlɪk/",
+    "sayIt": "byoo-KOL-ik",
+    "definitions": [
+      {
+        "text": "Relating to the countryside; idyllically rural and peaceful."
+      },
+      {
+        "text": "Of or concerning shepherds and pastoral life."
+      }
+    ],
+    "origin": "From Latin bucolicus, from Greek boukolikos, 'of a cowherd,' from bous (cow). Pastoral poetry wearing a toga and muddy boots.",
+    "synonyms": [
+      "pastoral",
+      "rural",
+      "rustic",
+      "idyllic",
+      "sylvan"
+    ],
+    "antonym": "urban"
+  },
+  {
+    "word": "perspicacious",
+    "pos": "adjective",
+    "pronunciation": "/ˌpɜːspɪˈkeɪʃəs/",
+    "sayIt": "per-spih-KAY-shus",
+    "definitions": [
+      {
+        "text": "Keenly perceptive; quick to grasp the truth of things.",
+        "example": "Perspicacious of you to notice the Barkeep waters the good whiskey on Tuesdays."
+      }
+    ],
+    "origin": "From Latin perspicax, 'sharp-sighted,' from perspicere (to see through). Conspicuous is a cousin: both about seeing, one clearly and one glaringly.",
+    "synonyms": [
+      "perceptive",
+      "astute",
+      "shrewd",
+      "discerning",
+      "insightful"
+    ],
+    "antonym": "obtuse"
+  },
+  {
+    "word": "lackadaisical",
+    "pos": "adjective",
+    "pronunciation": "/ˌlækəˈdeɪzɪkəl/",
+    "sayIt": "lak-uh-DAY-zih-kul",
+    "definitions": [
+      {
+        "text": "Lacking energy, enthusiasm, or effort."
+      },
+      {
+        "text": "Casually careless; going through the motions."
+      }
+    ],
+    "origin": "From the old sigh 'lackaday!' — short for alack the day — as if the word itself were too weary to finish the sentence.",
+    "synonyms": [
+      "listless",
+      "languid",
+      "lethargic",
+      "indifferent",
+      "halfhearted"
+    ],
+    "antonym": "energetic"
+  },
+  {
+    "word": "ephemeral",
+    "pos": "adjective",
+    "pronunciation": "/ɪˈfɛmərəl/",
+    "sayIt": "ih-FEM-er-ul",
+    "definitions": [
+      {
+        "text": "Lasting a very short time; fleeting.",
+        "example": "The head on a bad pour is ephemeral; on a good one it lingers like gossip."
+      }
+    ],
+    "origin": "From Greek ephemeros, 'lasting but a day,' from epi- (on) + hemera (day). The mayfly is the word's patron saint.",
+    "synonyms": [
+      "fleeting",
+      "transient",
+      "short-lived",
+      "momentary",
+      "evanescent"
+    ],
+    "antonym": "enduring"
+  },
+  {
+    "word": "recalcitrant",
+    "pos": "adjective",
+    "pronunciation": "/rɪˈkælsɪtrənt/",
+    "sayIt": "rih-KAL-sih-trunt",
+    "definitions": [
+      {
+        "text": "Stubbornly resistant to authority or control."
+      },
+      {
+        "text": "Hard to manage or work with; mulish."
+      }
+    ],
+    "origin": "From Latin recalcitrare, 'to kick back,' from re- (back) + calcitrare (to kick), from calx (heel). A mule in word form.",
+    "synonyms": [
+      "defiant",
+      "stubborn",
+      "unruly",
+      "intractable",
+      "headstrong"
+    ],
+    "antonym": "compliant"
+  },
+  {
+    "word": "fastidious",
+    "pos": "adjective",
+    "pronunciation": "/fæˈstɪdiəs/",
+    "sayIt": "fass-TID-ee-us",
+    "definitions": [
+      {
+        "text": "Excessively particular about details, cleanliness, or correctness.",
+        "example": "He is fastidious about his pint: the glass room-temperature, never chilled, and do not ask why."
+      }
+    ],
+    "origin": "From Latin fastidiosus, 'squeamish, disdainful,' from fastidium (disgust). It once meant 'loathsome'; the meaning flipped to describe the easily disgusted.",
+    "synonyms": [
+      "fussy",
+      "meticulous",
+      "picky",
+      "finicky",
+      "particular"
+    ],
+    "antonym": "careless"
+  },
+  {
+    "word": "insouciant",
+    "pos": "adjective",
+    "pronunciation": "/ɪnˈsuːsiənt/",
+    "sayIt": "in-SOO-see-unt",
+    "definitions": [
+      {
+        "text": "Casually unconcerned; breezily free of worry.",
+        "example": "She strolled in insouciant, ordered for the whole table, and won the quiz without notes."
+      }
+    ],
+    "origin": "From French insouciant, from in- (not) + souciant (worrying), from soucier (to worry), ultimately Latin sollicitare — the same restless root as solicit.",
+    "synonyms": [
+      "nonchalant",
+      "carefree",
+      "unbothered",
+      "breezy",
+      "devil-may-care"
+    ],
+    "antonym": "anxious"
+  },
+  {
+    "word": "pernicious",
+    "pos": "adjective",
+    "pronunciation": "/pəˈnɪʃəs/",
+    "sayIt": "per-NISH-us",
+    "definitions": [
+      {
+        "text": "Causing gradual, subtle, and serious harm."
+      },
+      {
+        "text": "Wicked or destructive in a way that creeps rather than strikes."
+      }
+    ],
+    "origin": "From Latin perniciosus, 'destructive,' from per- (thoroughly) + nex (death, slaughter). The damage arrives quietly, like a leak in the cellar.",
+    "synonyms": [
+      "harmful",
+      "corrosive",
+      "noxious",
+      "baneful",
+      "ruinous"
+    ],
+    "antonym": "beneficial"
+  },
+  {
+    "word": "scintillating",
+    "pos": "adjective",
+    "pronunciation": "/ˈsɪntɪleɪtɪŋ/",
+    "sayIt": "SIN-tih-lay-ting",
+    "definitions": [
+      {
+        "text": "Sparkling with wit, energy, or brilliance.",
+        "example": "Scintillating conversation at table six tonight: someone is defending soup as a beverage."
+      }
+    ],
+    "origin": "From Latin scintillare, 'to sparkle,' from scintilla (spark). Tinsel comes down from the same spark, via Old French estincele.",
+    "synonyms": [
+      "dazzling",
+      "sparkling",
+      "brilliant",
+      "glittering",
+      "lively"
+    ],
+    "antonym": "dull"
+  },
+  {
+    "word": "languid",
+    "pos": "adjective",
+    "pronunciation": "/ˈlæŋɡwɪd/",
+    "sayIt": "LANG-gwid",
+    "definitions": [
+      {
+        "text": "Slow, relaxed, and low on energy."
+      },
+      {
+        "text": "Faint or weak from heat or exhaustion."
+      }
+    ],
+    "origin": "From Latin languidus, 'faint, weak,' from languere (to be weak) — the languish family. The word itself moves a little slowly.",
+    "synonyms": [
+      "listless",
+      "sluggish",
+      "weary",
+      "laid-back",
+      "lethargic"
+    ],
+    "antonym": "brisk"
+  },
+  {
+    "word": "obtuse",
+    "pos": "adjective",
+    "pronunciation": "/əbˈtjuːs/",
+    "sayIt": "ub-TOOS",
+    "definitions": [
+      {
+        "text": "Slow to understand; frustratingly dim."
+      },
+      {
+        "text": "Blunt or rounded; of an angle, greater than 90 degrees."
+      }
+    ],
+    "origin": "From Latin obtusus, 'blunted,' from ob- (against) + tundere (to beat). A geometry term that wandered off and became an insult.",
+    "synonyms": [
+      "dim",
+      "dense",
+      "slow",
+      "dull",
+      "thick"
+    ],
+    "antonym": "acute"
+  },
+  {
+    "word": "disheveled",
+    "pos": "adjective",
+    "pronunciation": "/dɪˈʃɛvəld/",
+    "sayIt": "dih-SHEV-uld",
+    "definitions": [
+      {
+        "text": "Untidy and rumpled, as if you just rolled out of bed."
+      },
+      {
+        "text": "In general disarray; mussed and unkempt."
+      }
+    ],
+    "origin": "From Old French descheveler, 'to disarrange the hair,' from des- (apart) + chevel (hair). Bedhead is etymologically load-bearing.",
+    "synonyms": [
+      "unkempt",
+      "rumpled",
+      "messy",
+      "tousled",
+      "bedraggled"
+    ],
+    "antonym": "tidy"
+  },
+  {
+    "word": "equanimity",
+    "pos": "noun",
+    "pronunciation": "/ˌɛkwəˈnɪmɪti/",
+    "sayIt": "eh-kwuh-NIM-ih-tee",
+    "definitions": [
+      {
+        "text": "Calm, even temper, especially under stress."
+      },
+      {
+        "text": "Mental composure; an untroubled, balanced mind."
+      }
+    ],
+    "origin": "From Latin aequanimitas, from aequus (even, equal — as in equinox) + animus (mind, spirit). An even-keeled soul.",
+    "synonyms": [
+      "composure",
+      "calm",
+      "poise",
+      "serenity",
+      "level-headedness"
+    ],
+    "antonym": "agitation"
+  },
+  {
+    "word": "taciturn",
+    "pos": "adjective",
+    "pronunciation": "/ˈtæsɪtɜːn/",
+    "sayIt": "TASS-ih-turn",
+    "definitions": [
+      {
+        "text": "Reserved in speech; saying little by habit."
+      },
+      {
+        "text": "Habitually silent or uncommunicative."
+      }
+    ],
+    "origin": "From Latin taciturnus, 'habitually silent,' from tacere (to be silent). Tacit agreement comes from the same root, minus the personality.",
+    "synonyms": [
+      "reserved",
+      "reticent",
+      "silent",
+      "close-mouthed",
+      "uncommunicative"
+    ],
+    "antonym": "loquacious"
+  },
+  {
+    "word": "gloaming",
+    "pos": "noun",
+    "pronunciation": "/ˈɡləʊmɪŋ/",
+    "sayIt": "GLOH-ming",
+    "definitions": [
+      {
+        "text": "Dusk; the soft half-light after sunset.",
+        "example": "We light the lamps at gloaming, and the arguments about darts begin."
+      }
+    ],
+    "origin": "From Old English glomung, from glom (twilight, gloom). The day's last call for light.",
+    "synonyms": [
+      "twilight",
+      "dusk",
+      "evenfall",
+      "eventide",
+      "nightfall"
+    ],
+    "antonym": "daybreak"
+  },
+  {
+    "word": "petulant",
+    "pos": "adjective",
+    "pronunciation": "/ˈpɛtʃələnt/",
+    "sayIt": "PECH-uh-lunt",
+    "definitions": [
+      {
+        "text": "Childishly sulky or bad-tempered over small slights."
+      },
+      {
+        "text": "Irritable and peevish; prone to petty moods."
+      }
+    ],
+    "origin": "From Latin petulans, 'wanton, forward,' from petere (to attack, rush at). The tantrum is right there in the root.",
+    "synonyms": [
+      "sulky",
+      "peevish",
+      "sullen",
+      "irritable",
+      "huffy"
+    ],
+    "antonym": "cheerful"
+  },
+  {
+    "word": "effervescent",
+    "pos": "adjective",
+    "pronunciation": "/ˌɛfərˈvɛsənt/",
+    "sayIt": "ef-er-VESS-ent",
+    "definitions": [
+      {
+        "text": "Bubbly, enthusiastic, and full of life.",
+        "example": "She is effervescent on quiz night — fizzes audibly at every right answer."
+      },
+      {
+        "text": "Giving off bubbles; fizzy."
+      }
+    ],
+    "origin": "From Latin effervescere, 'to boil up,' from ex- (out) + fervescere (to begin to boil). The literal fizz came first; the personality followed.",
+    "synonyms": [
+      "bubbly",
+      "vivacious",
+      "sparkling",
+      "exuberant",
+      "fizzy"
+    ],
+    "antonym": "flat"
+  },
+  {
+    "word": "garrulous",
+    "pos": "adjective",
+    "pronunciation": "/ˈɡærələs/",
+    "sayIt": "GAIR-uh-lus",
+    "definitions": [
+      {
+        "text": "Excessively talkative, especially about trivial things.",
+        "example": "A garrulous stranger narrated his entire bus journey to me. I now know his sister's dog's birthday."
+      }
+    ],
+    "origin": "From Latin garrulus, 'chattering,' from garrire (to chatter) — the same chattering, some say, as a goose.",
+    "synonyms": [
+      "chatty",
+      "talkative",
+      "loquacious",
+      "voluble",
+      "long-winded"
+    ],
+    "antonym": "taciturn"
+  },
+  {
+    "word": "irascible",
+    "pos": "adjective",
+    "pronunciation": "/ɪˈræsɪbəl/",
+    "sayIt": "ih-RASS-ih-bul",
+    "definitions": [
+      {
+        "text": "Easily angered; hot-tempered by disposition."
+      },
+      {
+        "text": "Quick to flare, slow to cool."
+      }
+    ],
+    "origin": "From Latin irascibilis, 'prone to anger,' from irasci (to grow angry), from ira (anger) — the same Ira that drives revenge tragedies.",
+    "synonyms": [
+      "hot-tempered",
+      "testy",
+      "irritable",
+      "cantankerous",
+      "grumpy"
+    ],
+    "antonym": "good-natured"
+  },
+  {
+    "word": "nonplussed",
+    "pos": "adjective",
+    "pronunciation": "/nɒnˈplʌst/",
+    "sayIt": "non-PLUST",
+    "definitions": [
+      {
+        "text": "So surprised or confused that you don't know how to react.",
+        "example": "I was genuinely nonplussed when the Barkeep smiled. Did not know what to do with my hands."
+      }
+    ],
+    "origin": "From Latin non plus, 'no more' — the state of having no further idea what to say. American usage increasingly flips it to mean 'unfazed,' which rather nonplusses everyone else.",
+    "synonyms": [
+      "baffled",
+      "perplexed",
+      "flummoxed",
+      "bewildered",
+      "dumbfounded"
+    ],
+    "antonym": "composed"
+  },
+  {
+    "word": "sesquipedalian",
+    "pos": "adjective",
+    "pronunciation": "/ˌsɛskwɪpɪˈdeɪliən/",
+    "sayIt": "ses-kwih-pih-DAY-lee-un",
+    "definitions": [
+      {
+        "text": "Given to using very long words."
+      },
+      {
+        "text": "(Of a word) long and multisyllabic."
+      }
+    ],
+    "origin": "From Latin sesquipedalis, 'a foot and a half long,' from sesqui- (one and a half) + pes (foot). Horace warned poets against such words; the word survived the warning.",
+    "synonyms": [
+      "long-winded",
+      "verbose",
+      "multisyllabic",
+      "polysyllabic",
+      "grandiloquent"
+    ],
+    "antonym": "concise"
+  },
+  {
+    "word": "panacea",
+    "pos": "noun",
+    "pronunciation": "/ˌpænəˈsiːə/",
+    "sayIt": "pan-uh-SEE-uh",
+    "definitions": [
+      {
+        "text": "A supposed cure for all problems."
+      },
+      {
+        "text": "A universal remedy; a fix for everything."
+      }
+    ],
+    "origin": "From Greek panakeia, 'all-healing,' from pan- (all) + akos (cure). In Greek myth Panakeia was the goddess of universal remedy; in real life, the warranty expires.",
+    "synonyms": [
+      "cure-all",
+      "universal remedy",
+      "elixir",
+      "nostrum",
+      "magic bullet"
+    ]
+  },
+  {
+    "word": "quotidian",
+    "pos": "adjective",
+    "pronunciation": "/kwəˈtɪdiən/",
+    "sayIt": "kwuh-TID-ee-un",
+    "definitions": [
+      {
+        "text": "Daily; ordinary, routine, everyday."
+      },
+      {
+        "text": "Happening every single day; commonplace."
+      }
+    ],
+    "origin": "From Latin quotidianus, 'daily,' from quotidie (every day), from quot (how many) + dies (day). The everyday word wearing an elevated accent.",
+    "synonyms": [
+      "daily",
+      "everyday",
+      "routine",
+      "mundane",
+      "workaday"
+    ],
+    "antonym": "extraordinary"
+  },
+  {
+    "word": "umbrage",
+    "pos": "noun",
+    "pronunciation": "/ˈʌmbrɪdʒ/",
+    "sayIt": "UM-brij",
+    "definitions": [
+      {
+        "text": "Offense or resentment, usually taken rather than given."
+      },
+      {
+        "text": "A shadow of displeasure; a sense of being slighted."
+      }
+    ],
+    "origin": "From French umbrage, from Latin umbraticum (shade), from umbra (shadow). To take umbrage is to go sit in the shade and sulk.",
+    "synonyms": [
+      "offense",
+      "resentment",
+      "indignation",
+      "pique",
+      "displeasure"
+    ],
+    "antonym": "goodwill"
+  },
+  {
+    "word": "winsome",
+    "pos": "adjective",
+    "pronunciation": "/ˈwɪnsəm/",
+    "sayIt": "WIN-sum",
+    "definitions": [
+      {
+        "text": "Charming in an innocent, sweetly appealing way."
+      },
+      {
+        "text": "Attractive in a fresh, disarming fashion."
+      }
+    ],
+    "origin": "From Old English wynsum, 'pleasant, joyful,' from wynn (joy, delight) + -sum (-some, as in awesome). Joy, distilled into an adjective.",
+    "synonyms": [
+      "charming",
+      "endearing",
+      "adorable",
+      "appealing",
+      "fetching"
+    ],
+    "antonym": "unprepossessing"
+  },
+  {
+    "word": "zeitgeist",
+    "pos": "noun",
+    "pronunciation": "/ˈzaɪtɡaɪst/",
+    "sayIt": "ZYTE-gyst",
+    "definitions": [
+      {
+        "text": "The defining spirit or mood of a particular period of history."
+      }
+    ],
+    "origin": "Borrowed from German Zeit (time) + Geist (spirit, ghost). The spirit of the age, briefly bottled.",
+    "synonyms": [
+      "spirit of the age",
+      "mood",
+      "temper",
+      "ethos",
+      "climate"
+    ]
+  },
+  {
+    "word": "halcyon",
+    "pos": "adjective",
+    "pronunciation": "/ˈhælsiən/",
+    "sayIt": "HAL-see-un",
+    "definitions": [
+      {
+        "text": "Denoting a past period of idyllic calm and happiness.",
+        "example": "Ah, the halcyon days of 2019, when standing shoulder-to-shoulder in a pub was considered boring."
+      }
+    ],
+    "origin": "From Latin alcyon, from Greek alkyon (kingfisher). Myth held that the bird nested on a calm sea, and halcyon days were the windless weeks when its eggs hatched.",
+    "synonyms": [
+      "idyllic",
+      "tranquil",
+      "serene",
+      "golden",
+      "peaceful"
+    ],
+    "antonym": "turbulent"
+  },
+  {
+    "word": "laconic",
+    "pos": "adjective",
+    "pronunciation": "/ləˈkɒnɪk/",
+    "sayIt": "luh-KON-ik",
+    "definitions": [
+      {
+        "text": "Using very few words; terse to the point of rudeness.",
+        "example": "His review of the new bar across town? 'Wet.' Laconic, and somehow devastating."
+      },
+      {
+        "text": "Clipped, pithy, and brief."
+      }
+    ],
+    "origin": "From Greek Lakonikos, 'of Laconia,' the Spartan homeland whose citizens were famously brief. Philip of Macedon allegedly warned Sparta that if he entered Laconia he would raze it. Their reply: 'If.'",
+    "synonyms": [
+      "terse",
+      "brief",
+      "curt",
+      "pithy",
+      "tight-lipped"
+    ],
+    "antonym": "verbose"
+  },
+  {
+    "word": "mercurial",
+    "pos": "adjective",
+    "pronunciation": "/mər'kjʊriəl/",
+    "sayIt": "mer-KYOOR-ee-uhl",
+    "definitions": [
+      {
+        "text": "Subject to sudden, unpredictable changes of mood or mind.",
+        "example": "The forecast was as mercurial as my landlord: sunshine at nine, hail by ten, an apology by noon."
+      },
+      {
+        "text": "Quick, lively, and hard to pin down."
+      }
+    ],
+    "origin": "From Latin mercurialis, \"of Mercury,\" the swift messenger god. Quicksilver never sits still, and neither does a mercurial person.",
+    "synonyms": [
+      "volatile",
+      "fickle",
+      "capricious",
+      "changeable"
+    ],
+    "antonym": "steady"
+  },
+  {
+    "word": "bibliophile",
+    "pos": "noun",
+    "pronunciation": "/ˈbɪbliəfaɪl/",
+    "sayIt": "BIB-lee-uh-fyle",
+    "definitions": [
+      {
+        "text": "A devoted lover and collector of books."
+      }
+    ],
+    "origin": "From Greek biblion (book) + philos (loving). The biblio- root also gives us Bible and bibliography.",
+    "synonyms": [
+      "booklover",
+      "bookworm",
+      "collector",
+      "reader",
+      "bookman"
+    ]
+  },
+  {
+    "word": "curmudgeon",
+    "pos": "noun",
+    "pronunciation": "/kɜːˈmʌdʒən/",
+    "sayIt": "kur-MUJ-un",
+    "definitions": [
+      {
+        "text": "A bad-tempered, surly person."
+      },
+      {
+        "text": "A cantankerous grump, often of the secretly affectionate variety."
+      }
+    ],
+    "origin": "Of uncertain origin — possibly from French coeur méchant, 'evil heart,' though the evidence is thin. The word sounds exactly like what it describes, which is rarely an accident.",
+    "synonyms": [
+      "grump",
+      "grouch",
+      "crank",
+      "misanthrope",
+      "sourpuss"
+    ],
+    "antonym": "sweetheart"
+  },
+  {
+    "word": "dawdle",
+    "pos": "verb",
+    "pronunciation": "/ˈdɔːdəl/",
+    "sayIt": "DAW-duhl",
+    "definitions": [
+      {
+        "text": "To move slowly and aimlessly; to waste time.",
+        "example": "I dawdled on the walk over and lost the good fireside seats. Still worth it."
+      }
+    ],
+    "origin": "Probably a variant of daddle (to waddle like a child); first recorded in the 1600s, wasting time ever since.",
+    "synonyms": [
+      "loiter",
+      "linger",
+      "dilly-dally",
+      "lag",
+      "procrastinate"
+    ],
+    "antonym": "hasten"
+  },
+  {
+    "word": "fervid",
+    "pos": "adjective",
+    "pronunciation": "/ˈfɜːvɪd/",
+    "sayIt": "FUR-vid",
+    "definitions": [
+      {
+        "text": "Intensely passionate; burning with zeal."
+      },
+      {
+        "text": "Heated in feeling or expression; glowing."
+      }
+    ],
+    "origin": "From Latin fervidus, 'glowing, burning,' from fervere (to boil, glow). Fervent and fervor keep the same fire going.",
+    "synonyms": [
+      "passionate",
+      "fervent",
+      "zealous",
+      "ardent",
+      "fiery"
+    ],
+    "antonym": "apathetic"
+  },
+  {
+    "word": "gustatory",
+    "pos": "adjective",
+    "pronunciation": "/ˈɡʌstətɔːri/",
+    "sayIt": "GUS-tuh-tor-ee",
+    "definitions": [
+      {
+        "text": "Relating to the sense of taste."
+      },
+      {
+        "text": "Of or concerning the act of tasting."
+      }
+    ],
+    "origin": "From Latin gustatorius, from gustare (to taste), from gustus (taste). Disgust is the same root, looking at the menu and walking away.",
+    "synonyms": [
+      "palatal",
+      "taste-related",
+      "sapid",
+      "flavorful",
+      "savory"
+    ]
+  },
+  {
+    "word": "ineffable",
+    "pos": "adjective",
+    "pronunciation": "/ɪnˈɛfəbəl/",
+    "sayIt": "in-EFF-uh-bul",
+    "definitions": [
+      {
+        "text": "Too great, extreme, or sacred to be expressed in words."
+      },
+      {
+        "text": "Unutterable; beyond the reach of language."
+      }
+    ],
+    "origin": "From Latin ineffabilis, 'unutterable,' from in- (not) + effari (to speak out), from ex- (out) + fari (to speak). Fable and fate are cousins on the same speaking root.",
+    "synonyms": [
+      "indescribable",
+      "inexpressible",
+      "unspeakable",
+      "unutterable",
+      "beyond words"
+    ],
+    "antonym": "describable"
+  },
+  {
+    "word": "scuttlebutt",
+    "pos": "noun",
+    "pronunciation": "/ˈskʌtəlbʌt/",
+    "sayIt": "SKUT-ul-but",
+    "definitions": [
+      {
+        "text": "Rumor or gossip, especially of the informal clubhouse kind.",
+        "example": "The scuttlebutt says the Barkeep entered a darts tournament under an assumed name. We shall see."
+      }
+    ],
+    "origin": "Originally the cask (butt) with a hole (scuttle) for drinking water on a ship — where sailors naturally gathered to trade rumors. The gossip outlived the barrel.",
+    "synonyms": [
+      "gossip",
+      "rumor",
+      "hearsay",
+      "chatter",
+      "tittle-tattle"
+    ],
+    "antonym": "fact"
+  },
+  {
+    "word": "vitriolic",
+    "pos": "adjective",
+    "pronunciation": "/ˌvɪtriˈɒlɪk/",
+    "sayIt": "vit-ree-OL-ik",
+    "definitions": [
+      {
+        "text": "Fiercely and bitterly critical; caustic.",
+        "example": "The review was so vitriolic the chef framed it and hung it by the till."
+      }
+    ],
+    "origin": "From Latin vitriolum (sulfuric acid), from vitrum (glass) — the glassy crystals the acid was first distilled from. Figurative acid tongue included.",
+    "synonyms": [
+      "caustic",
+      "acerbic",
+      "bitter",
+      "scathing",
+      "acidic"
+    ],
+    "antonym": "gentle"
+  }
+]

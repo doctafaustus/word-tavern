@@ -1,0 +1,73 @@
+// Word Tavern design tokens — lifted from the Tap Room design.
+
+$bg: #FAF6EC;
+$paper: #FFFFFF;
+$ink: #1E1A16;
+$frame-ink: #3A332C;
+$frame-gap: #FFFDF8;
+$frame-rule: #C9C1B2;
+
+$gold: #F7B928;
+$gold-deep: #F59A1C;
+$butter: #FFF1C9;
+$butter-soft: #FFF8E6;
+$butter-deep: #FFF8E1;
+$sand: #F2D98C;
+
+$amber: #C4570F;
+$amber-dark: #8A3A0A;
+
+$line: #E6E0D3;
+$line-dark: #DDD6C8;
+$muted: #6E655A;
+$faint: #8C8377;
+$text: #4A433B;
+
+$green: #1E9450;
+$green-bright: #22A95A;
+$green-bg: #E3F6E8;
+$green-line: #9ED8AE;
+
+$blue: #1F55B8;
+$blue-bg: #EFF5FF;
+$blue-line: #B9D2F5;
+
+$red: #E0435A;
+$live: #3DDC7A;
+
+$rarity-colors: (
+  'Common': #7D766B,
+  'Uncommon': #1E9450,
+  'Rare': #2F6FE0,
+  'Epic': #8B3FD9,
+  'Legendary': #E0690F,
+);
+$rarity-bgs: (
+  'Common': #F2F0EC,
+  'Uncommon': #E4F6EA,
+  'Rare': #E8F0FD,
+  'Epic': #F3EAFC,
+  'Legendary': #FDEEDF,
+);
+
+$font-display: 'Rubik', Verdana, Geneva, sans-serif;
+$font-body: Verdana, Geneva, sans-serif;
+$font-mono: 'JetBrains Mono', ui-monospace, monospace;
+$font-quote: Georgia, 'Times New Roman', serif;
+
+$radius: 3px;
+$radius-lg: 3px;
+
+@mixin card {
+  background: $paper;
+  border: 1px solid $frame-ink;
+  border-radius: 3px;
+  box-shadow: 0 0 0 3px $frame-gap, 0 0 0 4px $frame-rule;
+}
+
+@function rarity-color($r) {
+  @return map-get($rarity-colors, $r);
+}
+@function rarity-bg($r) {
+  @return map-get($rarity-bgs, $r);
+}
