@@ -101,6 +101,9 @@ function renderWotd(today, me) {
     <div class="wotd__top">
       <div>
         <div class="wotd__wordrow">
+          ${w.audio ? `<button class="pronunciation-play" type="button" aria-label="Play pronunciation of ${esc(w.word)}" title="Play pronunciation">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4.03v8.05A4.5 4.5 0 0 0 16.5 12zm-2.5-9.23v2.06a8 8 0 0 1 0 14.34v2.06a10 10 0 0 0 0-18.46z"/></svg>
+          </button>` : ''}
           <h1 class="wotd__word">${esc(w.word)}</h1>
         </div>
         <div class="wotd__pron">${esc(w.pronunciation)} · ${esc(w.pos)}</div>
@@ -138,6 +141,16 @@ function renderWotd(today, me) {
   </section>`);
 
   node.querySelectorAll('[data-countdown]').forEach((n) => tickCountdown(n, n.dataset.countdown));
+  const playButton = node.querySelector('.pronunciation-play');
+  if (playButton) {
+    const audio = new Audio(w.audio);
+    playButton.addEventListener('click', () => {
+      audio.currentTime = 0;
+      audio.play().catch((error) => {
+        console.error(`Could not play pronunciation for "${w.word}":`, error);
+      });
+    });
+  }
   return node;
 }
 

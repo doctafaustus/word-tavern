@@ -1,6 +1,7 @@
 [
   {
     "word": "petrichor",
+    "audio": "/audio/words/petrichor.mp3",
     "pos": "noun",
     "pronunciation": "/ˈpɛtrɪkɔːr/",
     "sayIt": "PET-rih-kor",
@@ -20,6 +21,7 @@
   },
   {
     "word": "sonder",
+    "audio": "/audio/words/sonder.mp3",
     "pos": "noun",
     "pronunciation": "/ˈsɒndər/",
     "sayIt": "SON-der",
@@ -40,6 +42,7 @@
   },
   {
     "word": "uxorious",
+    "audio": "/audio/words/uxorious.mp3",
     "pos": "adjective",
     "pronunciation": "/ʌkˈsɔːriəs/",
     "sayIt": "uk-SOR-ee-us",
@@ -61,6 +64,7 @@
   },
   {
     "word": "higgledy-piggledy",
+    "audio": "/audio/words/higgledy-piggledy.mp3",
     "pos": "adjective",
     "pronunciation": "/ˌhɪɡəldi ˈpɪɡəldi/",
     "sayIt": "HIG-ul-dee PIG-ul-dee",
@@ -85,6 +89,7 @@
   },
   {
     "word": "defenestrate",
+    "audio": "/audio/words/defenestrate.mp3",
     "pos": "verb",
     "pronunciation": "/diːˈfɛnəstreɪt/",
     "sayIt": "dee-FEN-uh-strate",
@@ -105,6 +110,7 @@
   },
   {
     "word": "serendipity",
+    "audio": "/audio/words/serendipity.mp3",
     "pos": "noun",
     "pronunciation": "/ˌsɛrənˈdɪpəti/",
     "sayIt": "ser-uhn-DIP-ih-tee",
@@ -129,6 +135,7 @@
   },
   {
     "word": "obfuscate",
+    "audio": "/audio/words/obfuscate.mp3",
     "pos": "verb",
     "pronunciation": "/ˈɒbfəskeɪt/",
     "sayIt": "OB-fuh-skate",
@@ -152,6 +159,7 @@
   },
   {
     "word": "mellifluous",
+    "audio": "/audio/words/mellifluous.mp3",
     "pos": "adjective",
     "pronunciation": "/məˈlɪfluəs/",
     "sayIt": "muh-LIF-loo-us",
@@ -173,6 +181,7 @@
   },
   {
     "word": "querulous",
+    "audio": "/audio/words/querulous.mp3",
     "pos": "adjective",
     "pronunciation": "/ˈkwɛrələs/",
     "sayIt": "KWER-uh-lus",
@@ -196,6 +205,7 @@
   },
   {
     "word": "sangfroid",
+    "audio": "/audio/words/sangfroid.mp3",
     "pos": "noun",
     "pronunciation": "/sɒŋˈfrwɑː/",
     "sayIt": "sahng-FRWAH",
@@ -217,6 +227,7 @@
   },
   {
     "word": "abscond",
+    "audio": "/audio/words/abscond.mp3",
     "pos": "verb",
     "pronunciation": "/əbˈskɒnd/",
     "sayIt": "ub-SKOND",
@@ -238,6 +249,7 @@
   },
   {
     "word": "bucolic",
+    "audio": "/audio/words/bucolic.mp3",
     "pos": "adjective",
     "pronunciation": "/bjuːˈkɒlɪk/",
     "sayIt": "byoo-KOL-ik",
@@ -261,6 +273,7 @@
   },
   {
     "word": "perspicacious",
+    "audio": "/audio/words/perspicacious.mp3",
     "pos": "adjective",
     "pronunciation": "/ˌpɜːspɪˈkeɪʃəs/",
     "sayIt": "per-spih-KAY-shus",
@@ -282,6 +295,7 @@
   },
   {
     "word": "lackadaisical",
+    "audio": "/audio/words/lackadaisical.mp3",
     "pos": "adjective",
     "pronunciation": "/ˌlækəˈdeɪzɪkəl/",
     "sayIt": "lak-uh-DAY-zih-kul",
@@ -305,6 +319,7 @@
   },
   {
     "word": "ephemeral",
+    "audio": "/audio/words/ephemeral.mp3",
     "pos": "adjective",
     "pronunciation": "/ɪˈfɛmərəl/",
     "sayIt": "ih-FEM-er-ul",
@@ -326,6 +341,7 @@
   },
   {
     "word": "recalcitrant",
+    "audio": "/audio/words/recalcitrant.mp3",
     "pos": "adjective",
     "pronunciation": "/rɪˈkælsɪtrənt/",
     "sayIt": "rih-KAL-sih-trunt",
@@ -349,6 +365,7 @@
   },
   {
     "word": "fastidious",
+    "audio": "/audio/words/fastidious.mp3",
     "pos": "adjective",
     "pronunciation": "/fæˈstɪdiəs/",
     "sayIt": "fass-TID-ee-us",
@@ -370,6 +387,7 @@
   },
   {
     "word": "insouciant",
+    "audio": "/audio/words/insouciant.mp3",
     "pos": "adjective",
     "pronunciation": "/ɪnˈsuːsiənt/",
     "sayIt": "in-SOO-see-unt",
@@ -391,6 +409,7 @@
   },
   {
     "word": "pernicious",
+    "audio": "/audio/words/pernicious.mp3",
     "pos": "adjective",
     "pronunciation": "/pəˈnɪʃəs/",
     "sayIt": "per-NISH-us",
@@ -414,6 +433,7 @@
   },
   {
     "word": "scintillating",
+    "audio": "/audio/words/scintillating.mp3",
     "pos": "adjective",
     "pronunciation": "/ˈsɪntɪleɪtɪŋ/",
     "sayIt": "SIN-tih-lay-ting",
@@ -435,6 +455,7 @@
   },
   {
     "word": "languid",
+    "audio": "/audio/words/languid.mp3",
     "pos": "adjective",
     "pronunciation": "/ˈlæŋɡwɪd/",
     "sayIt": "LANG-gwid",
@@ -458,6 +479,7 @@
   },
   {
     "word": "obtuse",
+    "audio": "/audio/words/obtuse.mp3",
     "pos": "adjective",
     "pronunciation": "/əbˈtjuːs/",
     "sayIt": "ub-TOOS",
@@ -884,6 +906,7 @@
   },
   {
     "word": "bibliophile",
+    "audio": "/audio/words/bibliophile.mp3",
     "pos": "noun",
     "pronunciation": "/ˈbɪbliəfaɪl/",
     "sayIt": "BIB-lee-uh-fyle",
@@ -903,6 +926,7 @@
   },
   {
     "word": "curmudgeon",
+    "audio": "/audio/words/curmudgeon.mp3",
     "pos": "noun",
     "pronunciation": "/kɜːˈmʌdʒən/",
     "sayIt": "kur-MUJ-un",
@@ -926,6 +950,7 @@
   },
   {
     "word": "dawdle",
+    "audio": "/audio/words/dawdle.mp3",
     "pos": "verb",
     "pronunciation": "/ˈdɔːdəl/",
     "sayIt": "DAW-duhl",
@@ -947,6 +972,7 @@
   },
   {
     "word": "fervid",
+    "audio": "/audio/words/fervid.mp3",
     "pos": "adjective",
     "pronunciation": "/ˈfɜːvɪd/",
     "sayIt": "FUR-vid",
@@ -970,6 +996,7 @@
   },
   {
     "word": "gustatory",
+    "audio": "/audio/words/gustatory.mp3",
     "pos": "adjective",
     "pronunciation": "/ˈɡʌstətɔːri/",
     "sayIt": "GUS-tuh-tor-ee",
@@ -992,6 +1019,7 @@
   },
   {
     "word": "ineffable",
+    "audio": "/audio/words/ineffable.mp3",
     "pos": "adjective",
     "pronunciation": "/ɪnˈɛfəbəl/",
     "sayIt": "in-EFF-uh-bul",
@@ -1015,6 +1043,7 @@
   },
   {
     "word": "scuttlebutt",
+    "audio": "/audio/words/scuttlebutt.mp3",
     "pos": "noun",
     "pronunciation": "/ˈskʌtəlbʌt/",
     "sayIt": "SKUT-ul-but",
@@ -1036,6 +1065,7 @@
   },
   {
     "word": "vitriolic",
+    "audio": "/audio/words/vitriolic.mp3",
     "pos": "adjective",
     "pronunciation": "/ˌvɪtriˈɒlɪk/",
     "sayIt": "vit-ree-OL-ik",
