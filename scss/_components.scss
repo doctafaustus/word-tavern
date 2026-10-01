@@ -25,7 +25,7 @@
 // ── Masthead ───────────────────────────────────────────────────────────────
 .chrome-head {
   width: calc(100% - 36px);
-  max-width: 1440px;
+  max-width: 1040px;
   margin: 24px auto 8px;
   padding: 22px 28px 6px;
   background: $bg;
@@ -60,6 +60,9 @@
   gap: 18px;
 }
 .brand-copy { min-width: 0; flex: 1 1 auto; display: grid; gap: 8px; }
+@media (min-width: 901px) {
+  .brand-copy { transform: translateY(18px); }
+}
 .brand__link { display: block; flex-shrink: 0; }
 .brand__img { width: 175px; height: auto; flex-shrink: 0; }
 .brand__tagline {
@@ -453,8 +456,8 @@
   margin-top: 4px;
 }
 
-.wotd .defs { gap: 18px; }
-.wotd .def {
+.wotd .defs, .arch-detail .defs { gap: 18px; }
+.wotd .def, .arch-detail .def {
   align-items: baseline;
   gap: 10px;
   margin: 0;
@@ -464,7 +467,7 @@
   border-radius: 0;
   box-shadow: none;
 }
-.wotd .def__num {
+.wotd .def__num, .arch-detail .def__num {
   min-width: 24px;
   width: auto;
   height: auto;
@@ -477,8 +480,8 @@
   font-weight: 700;
   display: inline;
 }
-.wotd .def__text { font-family: $font-quote; font-size: 20px; font-weight: 500; line-height: 1.5; }
-.wotd .def__example {
+.wotd .def__text, .arch-detail .def__text { font-family: $font-quote; font-size: 20px; font-weight: 500; line-height: 1.5; }
+.wotd .def__example, .arch-detail .def__example {
   font-family: $font-quote;
   font-style: italic;
   font-size: 17px;

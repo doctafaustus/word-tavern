@@ -35,7 +35,7 @@ export async function mountChrome(active, { crumbs = null } = {}) {
   </div>`));
 
   renderMasthead(me.me);
-  renderBoardBar(today, online);
+  renderBoardBar(today);
   renderNav(active);
   if (crumbs !== null) renderCrumbs(crumbs, today);
   mountFooter(stats);
@@ -115,12 +115,10 @@ function mountAdminPanel(word, active) {
   });
 }
 
-function renderBoardBar(today, online) {
+function renderBoardBar(today) {
   const bar = document.getElementById('board-bar');
   bar.innerHTML = `
     <span class="board-tag"><span class="board-tag__pip"></span>LISTENING</span>
-    <span>${fmt(today.poured)} posts heard</span>
-    <span>${fmt(online.count)} posting</span>
     <span class="spacer">next pour <b data-countdown="${esc(today.nextPourAt)}"></b></span>`;
   bar.querySelectorAll('[data-countdown]').forEach((n) => tickCountdown(n, n.dataset.countdown));
 }

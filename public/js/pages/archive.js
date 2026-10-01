@@ -74,7 +74,6 @@ async function init() {
 
   function renderDetail(entry, pours) {
     return el(`<section class="arch-detail arch-detail--inline">
-      <div class="wotd__ribbon">WORD OF THE DAY #${fmt(entry.day)}</div>
       <div class="wotd__wordrow">
         <h1 class="wotd__word" style="font-size:44px">${esc(entry.word)}</h1>
         <span class="wotd__pron">${esc(entry.pronunciation)} · ${esc(entry.pos)}</span>
@@ -84,7 +83,7 @@ async function init() {
       <div class="defs">
         ${entry.definitions.map((d, i) => `<div class="def">
           <span class="def__num">${i + 1}</span>
-          <div>
+          <div class="def__content">
             <div class="def__text">${esc(d.text)}</div>
             ${d.example ? `<div class="def__example">“${esc(d.example)}”</div>` : ''}
           </div>
