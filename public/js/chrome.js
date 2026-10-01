@@ -1,10 +1,11 @@
 // Shared page chrome: board bar, masthead, nav, crumbs, footer, auth modal.
 
 import { api, esc, el, fmt, tickCountdown } from './api.js';
-import { vesselSVG, rarityColor } from './vessel.js';
+import { vesselSVG } from './vessel.js';
 
 const NAV = [
   ['today', "Today's Word", '/'],
+  ['my-tab', 'My Tab', '/my-tab.html'],
   ['archive', 'Archive', '/archive.html'],
   ['board', 'The Board', '/board.html'],
   ['regulars', 'Regulars', '/regulars.html'],
@@ -20,17 +21,21 @@ export async function mountChrome(active, { crumbs = null } = {}) {
     api('/api/stats'),
   ]);
 
-  document.body.prepend(el(`<div>
-    <div class="board-bar" id="board-bar"></div>
-    <div class="container chrome-head">
-      <div class="masthead" id="masthead"></div>
-      <nav class="nav-bar" id="nav-bar"></nav>
-      ${crumbs !== null ? '<div class="crumbs" id="crumbs"></div>' : '<div style="margin-bottom:28px"></div>'}
-    </div>
+  document.body.prepend(el(`<div class="container chrome-head">
+    <header class="tavern-header">
+      <a class="brand__link" href="/" aria-label="Word Tavern home">
+        <img class="brand__img" src="/img/word-tavern-logo.png" alt="Word Tavern">
+      </a>
+      <div class="header-main">
+        <div class="masthead" id="masthead"></div>
+        <nav class="nav-bar" id="nav-bar"></nav>
+        ${crumbs !== null ? '<div class="crumbs" id="crumbs"></div>' : ''}
+      </div>
+    </header>
   </div>`));
 
-  renderBoardBar(today, online);
   renderMasthead(me.me);
+  renderBoardBar(today, online);
   renderNav(active);
   if (crumbs !== null) renderCrumbs(crumbs, today);
   mountFooter(stats);
@@ -113,49 +118,39 @@ function mountAdminPanel(word, active) {
 function renderBoardBar(today, online) {
   const bar = document.getElementById('board-bar');
   bar.innerHTML = `
-    <span class="board-tag"><span class="board-tag__pip"></span>LISTENING TO BLUESKY</span>
-    <span>Posts heard today: <b>${fmt(today.poured)}</b></span>
-    <span>Players posting: <b>${fmt(online.count)}</b></span>
-    <span>On tap: <b>${esc(today.word.word)}</b></span>
-    <span class="spacer">next pour in <b data-countdown="${esc(today.nextPourAt)}"></b></span>`;
+    <span class="board-tag"><span class="board-tag__pip"></span>LISTENING</span>
+    <span>${fmt(today.poured)} posts heard</span>
+    <span>${fmt(online.count)} posting</span>
+    <span class="spacer">next pour <b data-countdown="${esc(today.nextPourAt)}"></b></span>`;
   bar.querySelectorAll('[data-countdown]').forEach((n) => tickCountdown(n, n.dataset.countdown));
 }
 
 function renderMasthead(me) {
   const head = document.getElementById('masthead');
-  const connection = me
-    ? `<div class="connection-info">
-        <span class="connection-pill connection-pill--blue"><span class="pip"></span>Connected to Bluesky</span>
-        <p>We read your public posts, never your DMs</p>
-      </div>`
-    : `<div class="connection-info connection-info--signed-out">
-        <button class="btn btn--small" id="sign-in">Sign in with Bluesky</button>
-        <span class="connection-pill connection-pill--muted"><span class="pip"></span>Not connected</span>
-      </div>`;
   const account = me
     ? `<div class="account">
         <a class="user-chip" href="/regular.html?handle=${encodeURIComponent(me.handle)}" title="Your tab">
           <span class="user-chip__avatar">${vesselSVG(me.vessel, 36, 1.3)}</span>
           <span>
-            <span class="user-chip__name">@${esc(me.handle)}</span>
+            <span class="user-chip__name">@${esc(me.handle.replace(/\.bsky\.social$/i, ''))}</span>
             <span class="user-chip__sub">
-              <span class="rarity-badge" style="background:${rarityColor(me.vessel.rarity)}">${esc(me.vessel.rarity)}</span>
-              ${me.streak}-day streak · ${fmt(me.xp)} XP
+              ${fmt(me.xp)} XP
             </span>
           </span>
         </a>
-        <button class="btn btn--ghost btn--small" id="sign-out">Sign out</button>
+        <button class="account__sign-out" id="sign-out">Sign out</button>
       </div>`
-    : '';
+    : `<div class="account account--signed-out">
+        <button class="btn btn--small" id="sign-in">Sign in with Bluesky</button>
+        <span class="account__status"><span class="pip"></span>Not connected</span>
+      </div>`;
 
   head.innerHTML = `
-    <div class="brand">
-      <a class="brand__link" href="/" aria-label="Word Tavern home">
-        <img class="brand__img" src="/img/word-tavern-logo.png" alt="Word Tavern">
-      </a>
+    <div class="brand-copy">
       <span class="brand__tagline">The daily word game you play by posting on <b>Bluesky</b></span>
+      <div class="board-bar" id="board-bar"></div>
     </div>
-    <div class="masthead__right">${connection}${account}</div>`;
+    ${account}`;
 
   const signIn = document.getElementById('sign-in');
   if (signIn) signIn.addEventListener('click', openLoginModal);
@@ -174,7 +169,7 @@ function renderNav(active) {
   }).join('');
   nav.innerHTML = `
     <div class="nav-bar__links">${links}</div>
-    <a class="nav-bar__notes" href="/rules.html#private-notes">Barkeep's notes: <b>3 new</b></a>`;
+    <a class="nav-bar__notes" href="/rules.html#private-notes">Notes: <b>3 new</b></a>`;
 }
 
 function renderCrumbs(crumbs, today) {
@@ -186,7 +181,7 @@ function renderCrumbs(crumbs, today) {
     const sep = last ? '' : ' › ';
     return body + sep;
   }).join('');
-  node.innerHTML = `<span>${trail}</span><span>You last visited: yesterday at 11:48 PM · <a href="#" id="share-word">Share today's word</a></span>`;
+  node.innerHTML = `<span>${trail}</span><a class="crumbs__share" href="#" id="share-word">Share on Bluesky ↗</a>`;
 }
 
 function mountFooter(stats) {

@@ -16,20 +16,9 @@ const TIERS = [
 ];
 
 async function init() {
-  const chrome = await mountChrome('today', {
-    crumbs: [
-      { label: 'Word Tavern' },
-      { label: 'The Bar' },
-      { label: 'Word of the Day No. {{day}}' },
-    ],
-  });
+  const chrome = await mountChrome('today');
 
   const { today, me } = chrome;
-  const share = document.getElementById('share-word');
-  if (share) share.addEventListener('click', (e) => {
-    e.preventDefault();
-    window.open(composeIntent(`${today.word.word} — today's word on tap at Word Tavern. Pour it into a post.`), '_blank');
-  });
 
   const main = document.getElementById('main');
   main.innerHTML = '';
@@ -61,6 +50,10 @@ async function init() {
 
 function composeIntent(text) {
   return `https://bsky.app/intent/compose?text=${encodeURIComponent(text)}`;
+}
+
+function wordPostText(word) {
+  return `Trying to work “${word}” into a sentence today. Playing along at @wordtavern.bsky.social 🍻`;
 }
 
 function renderWelcomeBanner() {
@@ -110,7 +103,6 @@ function renderWotd(today, me) {
         <div class="wotd__sayit">say it: ${esc(w.sayIt)}</div>
       </div>
       <div class="wotd__pour-column">
-        <div class="wotd__ribbon">WORD OF THE DAY #${fmt(today.day)}</div>
         <div class="pour-box">
           <div class="pour-box__count" id="poured-count">${fmt(today.poured)}</div>
           <div class="pour-box__label">POURED TODAY ON BLUESKY</div>
@@ -136,7 +128,7 @@ function renderWotd(today, me) {
           <div class="quest-bar__text">${esc(today.quest.text)} <span class="quest-bar__xp">+${today.quest.xp} XP</span></div>
         </div>
       </div>
-      <a class="btn" href="${composeIntent(w.word + ' ')}" target="_blank" rel="noopener">Post on Bluesky ↗</a>
+      <a class="btn" href="${composeIntent(wordPostText(w.word))}" target="_blank" rel="noopener">Post on Bluesky ↗</a>
     </div>
   </section>`);
 
@@ -205,7 +197,7 @@ async function hydrateFeed(today, sort = 'newest') {
   const postsNode = document.getElementById('posts');
   postsNode.innerHTML = '';
   const posts = feed.posts.slice(0, 25);
-  let visibleCount = Math.min(12, posts.length);
+  let visibleCount = Math.min(10, posts.length);
   posts.slice(0, visibleCount).forEach((p) => postsNode.appendChild(renderPost(p, today.day)));
 
   const loadMore = document.getElementById('feed-load-more');

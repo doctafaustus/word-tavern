@@ -7,6 +7,11 @@ full-page browser reload. Open <http://localhost:3000/>. Changes to files under
 `public/` refresh the browser; changes to SCSS rebuild the CSS and then refresh
 the page automatically. Stop all dev watchers with Ctrl+C.
 
+The local handle-based sign-in uses a signed, seven-day cookie that survives
+development server restarts. Production deployments must set a stable,
+private `SESSION_SECRET` in the root `.env` file; changing it signs out existing
+sessions.
+
 ## Admin feed refresh
 
 The bottom-right admin panel can force-refresh today's Bluesky feed caches. Set

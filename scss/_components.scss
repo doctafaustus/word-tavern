@@ -1,98 +1,87 @@
 // ── Board bar ──────────────────────────────────────────────────────────────
 .board-bar {
-  background: $butter;
-  border-bottom: 1px solid $sand;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 28px;
+  gap: 4px 22px;
   align-items: center;
-  padding: 9px 14px;
+  padding: 0;
   font-family: $font-mono;
-  font-size: 13px;
-  color: #7A4B0C;
-  white-space: nowrap;
+  font-size: 11px;
+  color: $muted;
 }
 .board-bar b { color: $ink; }
-.board-bar .spacer { margin-left: auto; }
+.board-bar .spacer { white-space: nowrap; }
 .board-tag {
   display: inline-flex;
   align-items: center;
-  gap: 7px;
-  background: #1683F8;
-  color: #fff;
+  gap: 6px;
+  color: #1683F8;
   font-weight: 700;
-  padding: 6px 10px;
-  border-radius: 2px;
+  letter-spacing: .04em;
 }
-.board-tag__pip { width: 8px; height: 8px; border-radius: 50%; background: #fff; }
+.board-tag__pip { width: 7px; height: 7px; border-radius: 50%; background: #1683F8; }
 .board-quip { font-style: italic; }
 
 // ── Masthead ───────────────────────────────────────────────────────────────
+.chrome-head {
+  width: calc(100% - 36px);
+  max-width: 1440px;
+  margin: 24px auto 8px;
+  padding: 22px 28px 6px;
+  background: $bg;
+}
+.tavern-header {
+  display: grid;
+  grid-template-columns: clamp(112px, 14vw, 205px) minmax(0, 1fr);
+  align-items: stretch;
+  gap: clamp(12px, 1.8vw, 22px);
+}
+.tavern-header > .brand__link {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+}
+.tavern-header > .brand__link .brand__img { width: min(170px, 100%); }
+.header-main {
+  grid-column: 2;
+  grid-row: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+}
 .masthead {
   display: flex;
+  min-width: 0;
   flex-wrap: wrap;
-  gap: 24px;
   justify-content: space-between;
   align-items: center;
-  padding: 26px 0 11px;
+  gap: 18px;
 }
-.brand { display: flex; flex: 1 1 480px; flex-direction: row; align-items: center; gap: 24px; }
+.brand-copy { min-width: 0; flex: 1 1 auto; display: grid; gap: 8px; }
 .brand__link { display: block; flex-shrink: 0; }
 .brand__img { width: 175px; height: auto; flex-shrink: 0; }
 .brand__tagline {
-  max-width: 320px;
+  max-width: 620px;
   color: $amber-dark;
   font-family: $font-quote;
-  font-size: 20px;
+  font-size: 18px;
   font-style: italic;
-  line-height: 1.45;
+  line-height: 1.35;
 }
 .brand__tagline b { color: #1683F8; }
 
-.masthead__right { display: flex; flex: 0 1 auto; align-items: center; justify-content: flex-end; gap: 18px; }
-.connection-info { min-width: 220px; text-align: center; }
-.connection-info p { margin: 6px 0 0; color: $muted; font-size: 13px; }
-.connection-info--signed-out { display: flex; flex-direction: column; align-items: center; gap: 10px; min-width: auto; }
-.connection-pill {
-  display: inline-flex;
-  gap: 6px;
-  align-items: center;
-  background: $green-bg;
-  border: 1px solid $green-line;
-  color: #1A7A3F;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 3px 10px;
-  border-radius: 3px;
-  margin-top: 3px;
-}
-.connection-pill .pip { width: 7px; height: 7px; border-radius: 50%; background: $green-bright; }
-.connection-pill--blue {
-  background: #E8F1FF;
-  border-color: #A8CCFF;
-  color: #075FC5;
-  font-size: 16px;
-  padding: 7px 14px;
-}
-.connection-pill--blue .pip { background: #1683F8; }
-.connection-pill--muted {
-  margin: 0;
-  background: #F2F0EC;
-  border-color: #DDD6C8;
-  color: #6E655A;
-}
-
 .user-chip {
   display: flex;
+  flex: 1 1 auto;
+  min-width: 0;
   gap: 10px;
   align-items: center;
-  background: $paper;
-  border: 1px solid $frame-ink;
-  border-radius: 3px;
-  box-shadow: 0 0 0 3px $frame-gap, 0 0 0 4px $frame-rule;
-  padding: 6px 14px 6px 6px;
+  padding: 6px 12px 6px 6px;
   cursor: pointer;
 }
+.user-chip > span:last-child { min-width: 0; }
 .user-chip__avatar {
   position: relative;
   width: 44px;
@@ -106,7 +95,15 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.user-chip__name { font-weight: 700; font-size: 14px; line-height: 1.25; }
+.user-chip__name {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.25;
+}
 .user-chip__sub {
   display: flex;
   gap: 6px;
@@ -114,6 +111,34 @@
   font-size: 12px;
   color: $muted;
 }
+.account {
+  display: flex;
+  flex: 0 0 auto;
+  max-width: 100%;
+  align-items: center;
+  gap: 0;
+  margin-left: auto;
+  background: #FBF8F0;
+  border: 1px solid $frame-ink;
+  border-radius: 7px;
+  box-shadow: 0 0 0 3px $frame-gap, 0 0 0 4px $frame-rule;
+  overflow: hidden;
+}
+.account__sign-out {
+  align-self: stretch;
+  flex-shrink: 0;
+  padding: 0 16px;
+  color: $muted;
+  background: transparent;
+  border: 0;
+  border-left: 1px solid $line;
+  font: inherit;
+  cursor: pointer;
+}
+.account__sign-out:hover { color: $amber; background: #F5F0E6; }
+.account--signed-out { gap: 12px; padding: 8px 12px; }
+.account__status { display: inline-flex; align-items: center; gap: 6px; color: $muted; font-size: 11px; white-space: nowrap; }
+.account__status .pip { width: 7px; height: 7px; border-radius: 50%; background: $faint; }
 
 .rarity-badge {
   font-family: $font-mono;
@@ -129,23 +154,35 @@
 // ── Nav + crumbs ───────────────────────────────────────────────────────────
 .nav-bar {
   display: flex;
-  flex-wrap: wrap;
+  min-width: 0;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   gap: 8px;
-  background: $ink;
+  background: #493020;
   color: $butter;
-  border: 1px solid $frame-ink;
-  border-radius: 3px 3px 0 0;
-  padding: 8px 14px;
+  border: 1px solid #493020;
+  border-radius: 3px;
+  padding: 8px 18px;
   font-size: 12px;
   font-weight: bold;
 }
-.nav-bar__links { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.nav-bar__links {
+  display: flex;
+  min-width: 0;
+  gap: 9px;
+  flex: 1 1 auto;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow-x: auto;
+  scrollbar-width: none;
+  white-space: nowrap;
+}
+.nav-bar__links::-webkit-scrollbar { display: none; }
 .nav-bar a { color: $butter; }
 .nav-bar a:hover { color: $gold; }
 .nav-bar a.is-active { color: $gold; }
-.nav-bar__notes { font-weight: normal; }
+.nav-bar__notes { flex: 0 0 auto; font-weight: normal; }
 .nav-bar__notes b { color: $gold; }
 
 .crumbs {
@@ -153,23 +190,19 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 8px;
-  background: $butter-soft;
-  border: 1px solid $frame-ink;
-  border-top: none;
-  border-radius: 0 0 3px 3px;
-  padding: 6px 14px;
-  margin-bottom: 28px;
+  padding: 0 18px;
   font-size: 11px;
-  color: $muted;
+  color: $ink;
 }
 .crumbs a { color: $amber; font-weight: bold; }
 .crumbs b { color: $ink; }
+.crumbs__share { color: #245DC5 !important; font-size: 12px; }
 
 // ── Word of the day card ───────────────────────────────────────────────────
 .wotd {
   position: relative;
   @include card;
-  padding: 40px 40px 36px;
+  padding: 20px 40px 36px;
 }
 .wotd__ribbon {
   position: absolute;
@@ -237,7 +270,7 @@
   grid-template-columns: 112px minmax(0, 1fr);
   align-items: center;
   gap: 10px;
-  margin: 24px 4px 28px;
+  margin: 8px 4px 28px;
 }
 .welcome-banner__host {
   display: flex;
@@ -376,11 +409,9 @@
 .word-details__label {
   padding-top: 4px;
   color: $amber;
-  font-family: $font-mono;
-  font-size: 12px;
+  font-family: $font-quote;
+  font-size: 15px;
   font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
 }
 .word-details__text {
   margin: 0;
@@ -1075,7 +1106,23 @@
   cursor: pointer;
 }
 .admin-panel__toggle:hover { background: $butter; }
-.admin-panel.is-collapsed { width: auto; padding: 10px 12px; }
+.admin-panel.is-collapsed {
+  right: 12px;
+  bottom: 0;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+}
+.admin-panel.is-collapsed .admin-panel__heading { justify-content: flex-end; }
+.admin-panel.is-collapsed .admin-panel__title { display: none; }
+.admin-panel.is-collapsed .admin-panel__toggle {
+  width: 32px;
+  height: 32px;
+  border-radius: 3px 0 0;
+}
 .admin-panel p { margin-top: 4px; color: $muted; font-size: 11px; }
 .admin-panel__form { display: flex; gap: 6px; margin-top: 10px; }
 .admin-panel__form input {

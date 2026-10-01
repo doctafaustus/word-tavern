@@ -6,7 +6,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { dayNumber } = require('./words');
+const { dayNumber, tavern } = require('./words');
 
 const TTL = 10 * 60 * 1000;
 // Bluesky runs two public appviews; try each before giving up.
@@ -14,8 +14,13 @@ const APIS = [
   'https://api.bsky.app/xrpc/app.bsky.feed.searchPosts',
   'https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts',
 ];
+const AUTHOR_FEED_APIS = [
+  'https://api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed',
+  'https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed',
+];
 const CACHE_DIR = path.join(__dirname, '..', '..', 'data-cache');
 const memory = new Map(); // word -> { fetchedAt, posts }
+const authorMemory = new Map(); // handle -> { fetchedAt, posts }
 
 function cachePath(key) {
   return path.join(CACHE_DIR, `feed-${key.toLowerCase().replace(/[^a-z0-9]+/g, '_')}-day${dayNumber()}.json`);
@@ -58,6 +63,75 @@ async function fetchOnce(api, word, sort) {
   } finally {
     clearTimeout(timer);
   }
+}
+
+async function fetchAuthorPage(api, handle, cursor) {
+  const params = new URLSearchParams({ actor: handle, filter: 'posts_with_replies', limit: '100' });
+  if (cursor) params.set('cursor', cursor);
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 8000);
+  try {
+    const res = await fetch(`${api}?${params}`, { signal: ctrl.signal, headers: { accept: 'application/json' } });
+    if (!res.ok) throw new Error(`Bluesky responded ${res.status}`);
+    return res.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function getAuthorPosts(handle) {
+  const key = handle.toLowerCase();
+  const cached = authorMemory.get(key);
+  if (fresh(cached)) return { posts: cached.posts, source: 'live-cache' };
+
+  const posts = [];
+  const cursors = new Set();
+  let cursor = null;
+  let reachedLaunch = false;
+  const launchDate = tavern.launchDate;
+
+  while (!reachedLaunch) {
+    let page = null;
+    let lastError = null;
+    for (const api of AUTHOR_FEED_APIS) {
+      try {
+        page = await fetchAuthorPage(api, handle, cursor);
+        break;
+      } catch (error) {
+        lastError = error;
+      }
+    }
+    if (!page) throw lastError || new Error('Bluesky author feed unavailable');
+
+    const feed = page.feed || [];
+    for (const item of feed) {
+      const post = item.post;
+      if (!post || post.author?.handle?.toLowerCase() !== key || !post.record?.text) continue;
+      const at = post.record.createdAt || post.indexedAt;
+      if (!at) continue;
+      if (at.slice(0, 10) < launchDate) continue;
+      posts.push({
+        uri: post.uri,
+        text: post.record.text,
+        at,
+        likes: post.likeCount || 0,
+      });
+    }
+
+    const oldest = feed
+      .map((item) => item.post?.record?.createdAt || item.post?.indexedAt)
+      .filter(Boolean)
+      .sort()[0];
+    if (oldest && oldest.slice(0, 10) < launchDate) reachedLaunch = true;
+
+    if (reachedLaunch || feed.length < 100 || !page.cursor) break;
+    if (cursors.has(page.cursor)) throw new Error('Bluesky author feed pagination stalled');
+    cursors.add(page.cursor);
+    cursor = page.cursor;
+  }
+
+  authorMemory.set(key, { fetchedAt: Date.now(), posts });
+  return { posts, source: 'live' };
 }
 
 function readDiskCache(word) {
@@ -108,4 +182,4 @@ function readAnyDisk(word) {
   } catch (_) { return null; }
 }
 
-module.exports = { searchPosts, TTL };
+module.exports = { searchPosts, getAuthorPosts, TTL };

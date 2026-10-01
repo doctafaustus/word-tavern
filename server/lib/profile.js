@@ -14,8 +14,7 @@ function normalizeHandle(input) {
 }
 
 // A player is "seeded" (one of our regulars, with authored stats) or brand
-// new — new handles get believable first-night numbers so the tavern never
-// feels empty. Vessel always comes from the handle hash.
+// new. Vessel always comes from the handle hash.
 function profileFor(handle) {
   const seed = regulars.find((r) => r.handle === handle);
   const spec = specFor(handle);
@@ -26,13 +25,11 @@ function profileFor(handle) {
     vessel: spec,
     vesselAttrs: attrsFor(spec),
     joined: seed ? seed.joined : new Date().toISOString().slice(0, 10),
-    streak: seed ? seed.streak : 1,
-    xp: seed ? seed.xp : 25,
-    wordsPoured: seed ? seed.wordsPoured : 1,
-    weeklyXp: seed ? seed.weeklyXp : 25,
-    tab: seed ? seed.tab : [
-      { day: null, date: new Date().toISOString().slice(0, 10), word: 'first pour', xp: 25 },
-    ],
+    streak: seed ? seed.streak : 0,
+    xp: seed ? seed.xp : 0,
+    wordsPoured: seed ? seed.wordsPoured : 0,
+    weeklyXp: seed ? seed.weeklyXp : 0,
+    tab: seed ? seed.tab : [],
   };
   return profile;
 }
